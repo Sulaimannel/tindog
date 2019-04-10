@@ -1,0 +1,188 @@
+body {
+	font-family: "Montserrat";
+}
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h3{
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
+.big-heading {
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #8f8f8f;
+	font-size: 1.2rem;
+}
+/* -----------------Navigation Bar--------------------------------- */
+
+.navbar{
+	padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat";
+}
+
+/*-----------------DOWNLOAD BUTTONS---------------------*/
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+
+/*--------------------TITLE IMAGE------------------*/
+
+.title-image {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+/*------------------FEATURES SECTION-------------------*/
+
+#features {
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+}
+
+#features i{
+	color: #ef8172;
+	margin-bottom: 1rem;
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+#features i:hover{
+	color: #ff4c68;
+	font-size: 70px;
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+
+.features-box {
+	text-align: center;
+	padding: 2%;
+}
+
+/*---------------TESTIMONIAL SECTION-------------*/
+
+#testimonials {
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/*-------------PRICING SECTION----------*/
+
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+	#title {
+		text-align: center;
+	}
+	.title-image {
+		position: static;
+		transform: rotate(0deg);
+	}
+}
+
+/*---CALL TO ACTION CTA-------*/
+
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	color: white;
+	padding: 7% 15%;
+}
+
+#cta button{
+	margin: 5% 3% 5% 0;
+}
+
+
+/*----------------------FOOTER SECTION--------*/
+
+#footer {
+	padding: 7% 15%;
+	text-align: center;
+}
+
+.social-icons {
+	margin: 20px 10px;
+}
+
+#footer .fab {
+	margin: 2%;
+}

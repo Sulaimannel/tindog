@@ -1,2 +1,1 @@
-# tindog
-Udemy TinDog Challenge
+TinDog Starting Files
